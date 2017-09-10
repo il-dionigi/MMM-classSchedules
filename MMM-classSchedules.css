@@ -1,0 +1,93 @@
+.MMM-classSchedules {
+}
+
+.MMM-classSchedules .summary {
+  width: 400px;
+}
+
+.MMM-classSchedules .schedule {
+  text-align: left;
+  min-width: 400px;
+  margin-top: 1ex;
+}
+
+.MMM-classSchedules .schedule-row {
+  line-height: 2em;
+  font-size: 1vw;
+}
+
+.container .space-around {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+}
+
+.space-around::before, .space-around::after {
+  content: none;
+}
+
+.container .space-between {  
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;  }
+
+.space-between::before, .space-between::after {
+        content: none;
+}
+
+.MMM-classSchedules .schedule-row>span {
+  display: table-cell;
+  width: 1px;
+}
+
+.MMM-classSchedules .schedule-row .schedule-user {
+    white-space: nowrap;
+  text-align: left;
+  padding-right: 0.2em;
+}
+
+.MMM-classSchedules .schedule-bar {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+}
+
+.MMM-classSchedules .schedule-bar>span {
+  display: table-cell;
+  text-align: center;
+}
+
+.MMM-classSchedules .schedule-bar .bar {
+  background-color: #aaa;
+  line-height: 1em;
+  font-size: 1vw;
+  border-radius: 1em;
+  border: 0.25ex transparent solid;
+  background-clip: padding-box;
+  color: black;
+}
+
+.small.MMM-classSchedules .schedule {
+  min-width: 150px;
+  max-width: 300px;
+}
+
+.small.MMM-classSchedules .summary {
+  width: 300px;
+}
